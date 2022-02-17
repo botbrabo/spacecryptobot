@@ -143,7 +143,7 @@ def jogar():
             clicar(imagens["fight"], timeout=0.5, confianca=carregar_config['confianca_botao_fight'], velocidade=0.3)
             pyautogui.click()
 
-            if achou('full', confianca=0.95):
+            if achou('full', confianca=carregar_config['confianca_naves_selecionadas']):
               clicar(imagens["startboss"])
               expirou = True
 
@@ -214,7 +214,7 @@ def main():
         if achou('error'):
           clicar(imagens["error"])
         
-        if achou('full', confianca=0.95):
+        if achou('full', confianca=carregar_config['confianca_naves_selecionadas']):
           print('Todas as naves já estavam selecionadas')
           clicar(imagens["startboss"])
         else:
@@ -222,7 +222,7 @@ def main():
             print('Encontrou naves disponíveis...')
             jogar()
           else:
-            if bossAtual == 10 and achou('noships', confianca=0.95) is False:
+            if bossAtual == 10 and achou('noships', confianca=carregar_config['confianca_naves_selecionadas']) is False:
               clicar(imagens["startboss"])
             else:
               scroll()

@@ -5,8 +5,10 @@ qtd_scrolls: 10
 #tempo de espera a cada clique
 tempo_clique: 1
 #tamanho do scroll
-click_and_drag_amount: 250
+click_and_drag_amount: 200
 #qtd monitores ativos
 qtd_monitores: 1
 #grau de confianca para o click no botao fight (quanto mais perto de 1 mais preciso de acordo com a imagem salva)
 confianca_botao_fight: 0.95
+#grau de confianca para detecção de se todas as naves ja foram selecionadas
+confianca_naves_selecionadas: 0.95
