@@ -175,11 +175,11 @@ def jogando():
 
     bossatual()
 
-    if achou('boss11', confianca=0.95):
+    if achou('boss11', confianca=carregar_config['confianca_boss11']):
       print('Chegou no boss 11, clicando surrender')
       clicar(imagens['surrenderbtn'])
 
-    if achou('empty', confianca=0.9):
+    if achou('empty', confianca=carregar_config['confianca_naves_quebradas']):
       print('Todas as naves quebraram, retornando ao inicio')
       clicar(imagens['retorno'], confianca=0.8)
       return True

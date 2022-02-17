@@ -8,7 +8,11 @@ tempo_clique: 1
 click_and_drag_amount: 200
 #qtd monitores ativos
 qtd_monitores: 1
-#grau de confianca para o click no botao fight (quanto mais perto de 1 mais preciso de acordo com a imagem salva)
+#grau de confianca para o click no botao fight (quanto mais perto de 1 mais preciso de acordo com a imagem salva - mude isso se não estiver saindo do botão de fight ou se não tiver selecionando) 
 confianca_botao_fight: 0.95
-#grau de confianca para detecção de se todas as naves ja foram selecionadas
+#grau de confianca para detecção de se todas as naves ja foram selecionadas (mude isso se não estiver clicando pra entrar no boss)
 confianca_naves_selecionadas: 0.95
+#grau de confianca para detecção de quando as naves já quebraram (mude isso para menor caso não esteja saindo da tela de batalha)
+confianca_naves_quebradas: 0.95
+#grau de confianca boss 11 (mude isso caso não esteja dando surrender ao chegar no boss 11)
+confianca_boss11: 0.95
