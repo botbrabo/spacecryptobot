@@ -22,6 +22,8 @@
 <br>
 <h1 align="center">Modo de usar</h1>
 <li>Digite no terminal python main.py</li>
+<li>Altere as configurações de cor do navegador para sRGB:
+chrome://flags/#force-color-profile</li>
 <li>Abra a tela do jogo e deixe aberto sem nada na frente da janela</li>
 
 <br>
