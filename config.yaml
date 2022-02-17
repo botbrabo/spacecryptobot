@@ -1,0 +1,8 @@
+#tempo de espera para começar o programa após inicio
+tempo_comecar_programa: 5
+#quantidade de scrolls a se fazer
+qtd_scrolls: 10
+#tempo de espera a cada clique
+tempo_clique: 1
+#tamanho do scroll
+click_and_drag_amount: 250
