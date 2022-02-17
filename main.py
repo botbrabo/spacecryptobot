@@ -156,7 +156,7 @@ def bossatual():
   global bossAtual
 
   for bossnum in range(10):
-    if achou('boss' + str(bossnum + 1)):
+    if achou('boss' + str(bossnum + 1), confianca=0.9):
       if bossAtual != bossnum + 1:
         print('Detectado Boss: ' + str(bossnum + 1))
         bossAtual = bossnum + 1
