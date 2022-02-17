@@ -181,7 +181,7 @@ def jogando():
 
     if achou('empty', confianca=0.9):
       print('Todas as naves quebraram, retornando ao inicio')
-      clicar(imagens['retorno'])
+      clicar(imagens['retorno'], confianca=0.8)
       return True
 
     return False
