@@ -192,6 +192,10 @@ def main():
     global bossAtual
     imagens = carregar_imagens()
 
+    print('--- Bot iniciando!')
+    print('--- Se puder doar algum token pra ajudar humilde!')
+    print('--- 0xaB2E35923e09D270808f412b6869319c85686570')
+
     sleep(carregar_config["tempo_comecar_programa"])
 
     ultimo = {
