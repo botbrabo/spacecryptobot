@@ -143,7 +143,7 @@ def jogar():
             clicar(imagens["fight"], timeout=0.5, confianca=0.98, velocidade=0.3)
             pyautogui.click()
 
-            if achou('full', confianca=0.99):
+            if achou('full'):
               clicar(imagens["startboss"])
               expirou = True
 
@@ -156,7 +156,7 @@ def bossatual():
   global bossAtual
 
   for bossnum in range(10):
-    if achou('boss' + str(bossnum + 1), confianca=0.99):
+    if achou('boss' + str(bossnum + 1)):
       if bossAtual != bossnum + 1:
         print('Detectado Boss: ' + str(bossnum + 1))
         bossAtual = bossnum + 1
@@ -214,7 +214,7 @@ def main():
         if achou('error'):
           clicar(imagens["error"])
         
-        if achou('full', confianca=0.99):
+        if achou('full'):
           print('Todas as naves já estavam selecionadas')
           clicar(imagens["startboss"])
         else:
