@@ -1,6 +1,6 @@
 <h1 align="center">Space Crypto Bot - spacecrypto.io</h1>
-<h2>AJUDA NOIS AE! 
-DOAÇÕES: 0xaB2E35923e09D270808f412b6869319c85686570 (aceito qualquer token da BSC)
+<h2>AJUDA NOIS AE! DOAÇÕES (aceito qualquer token da BSC):
+0xaB2E35923e09D270808f412b6869319c85686570 
 <br>
 <h1 align="center">⚠ AVISOS ⚠</h1>
 <li>Esse projeto foi inspirado em um projeto semelhante, porém para LUNA: <a href="https://github.com/nftplayer/lunarushbot">https://github.com/nftplayer/lunarushbot</a></li>
