@@ -143,7 +143,7 @@ def jogar():
             clicar(imagens["fight"], timeout=0.5, confianca=0.98, velocidade=0.3)
             pyautogui.click()
 
-            if achou('full'):
+            if achou('full', confianca=0.95):
               clicar(imagens["startboss"])
               expirou = True
 
@@ -179,7 +179,7 @@ def jogando():
       print('Chegou no boss 11, clicando surrender')
       clicar(imagens['surrenderbtn'])
 
-    if achou('empty', confianca=0.95):
+    if achou('empty', confianca=0.9):
       print('Todas as naves quebraram, retornando ao inicio')
       clicar(imagens['retorno'])
       return True
@@ -214,7 +214,7 @@ def main():
         if achou('error'):
           clicar(imagens["error"])
         
-        if achou('full'):
+        if achou('full', confianca=0.95):
           print('Todas as naves já estavam selecionadas')
           clicar(imagens["startboss"])
         else:

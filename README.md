@@ -18,6 +18,7 @@
 <li>Abra o terminal e digite CMD</li>
 <li>Digite cd "caminho que você copiou"</li>
 <li>Digite pip install -r requirements.txt</li>
+<li>Talvez seja necessário substituir o botão de "fight.png" na pasta alvos para um print tirado da sua propria máquina</li>
 
 <br>
 <h1 align="center">Modo de usar</h1>
