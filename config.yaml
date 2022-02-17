@@ -6,3 +6,5 @@ qtd_scrolls: 10
 tempo_clique: 1
 #tamanho do scroll
 click_and_drag_amount: 250
+#qtd monitores ativos
+qtd_monitores: 1

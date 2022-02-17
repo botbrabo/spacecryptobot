@@ -35,11 +35,13 @@ def carregar_imagens(dir_path='./alvos/'):
 
 global off_x
 off_x = 0
-with mss.mss() as sct:
-    off_x = 0
-    if len(sct.monitors) > 1:
-      monitor = sct.monitors[1]
-      off_x = -monitor['width']
+
+if carregar_config['qtd_monitores'] > 1:
+  with mss.mss() as sct:
+      off_x = 0
+      if len(sct.monitors) > 1:
+        monitor = sct.monitors[1]
+        off_x = -monitor['width']
 
 def print_screen():
     with mss.mss() as sct:
