@@ -134,13 +134,13 @@ def jogar():
     inicio = time()
     expirou = False
     while(not expirou):
-        encontrou = posicoes(imagens["fight"], confianca=0.98)
+        encontrou = posicoes(imagens["fight"], confianca=carregar_config['confianca_botao_fight'])
 
         if(len(encontrou) == 0):
             expirou = time() - inicio > timeout
             continue
         else:
-            clicar(imagens["fight"], timeout=0.5, confianca=0.98, velocidade=0.3)
+            clicar(imagens["fight"], timeout=0.5, confianca=carregar_config['confianca_botao_fight'], velocidade=0.3)
             pyautogui.click()
 
             if achou('full', confianca=0.95):
@@ -218,7 +218,7 @@ def main():
           print('Todas as naves já estavam selecionadas')
           clicar(imagens["startboss"])
         else:
-          if achou('fight', confianca=0.98):
+          if achou('fight', confianca=carregar_config['confianca_botao_fight']):
             print('Encontrou naves disponíveis...')
             jogar()
           else:
