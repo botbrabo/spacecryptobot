@@ -18,3 +18,5 @@ confianca_naves_quebradas: 0.89
 confianca_boss_label: 0.95
 #define em qual boss dar surrender (maximo 11, qualquer numero maior que isso vai dar erro)
 parar_no_boss: 11
+# define um tempo de intervalo para realizar o refresh de pagina (se ficar aberto por muito tempo acaba bugando o jogo)
+atualizar_pagina_em_segundos: 4200

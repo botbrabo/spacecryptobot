@@ -207,6 +207,11 @@ def main():
     while True:
         agora = time()
 
+        if agora - ultimo["atualizar"] > carregar_config['atualizar_pagina_em_segundos']:
+            ultimo["atualizar"] = agora
+            pyautogui.hotkey('ctrl', 'f5')
+            sleep(15)
+
         if agora - ultimo["login"] > 60:
             ultimo["login"] = agora
             login()
