@@ -24,8 +24,10 @@
 <h1 align="center">Modo de usar</h1>
 <li>Digite no terminal python main.py</li>
 <li>Altere as configurações de cor do navegador para sRGB:
-chrome://flags/#force-color-profile</li>
+*chrome://flags/#force-color-profile*</li>
 <li>Abra a tela do jogo e deixe aberto sem nada na frente da janela</li>
+<li>Leia o arquivo config.yaml e ajuste os valores caso necessário</li>
+
 
 <br>
 <h1 align="center">O que o bot faz?</h1>
