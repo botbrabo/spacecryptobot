@@ -38,9 +38,9 @@
 <br>
 <h1 align="center">Configs alternativas do config.yaml se não funcionar:</h1>
 <pre>
-confianca_botao_fight: 0.92
-confianca_naves_selecionadas: 0.96
-confianca_naves_quebradas: 0.89
+confianca_botao_fight: 0.95
+confianca_naves_selecionadas: 0.95
+confianca_naves_quebradas: 0.95
 confianca_boss11: 0.95
 </pre>
 
