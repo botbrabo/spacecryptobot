@@ -18,14 +18,13 @@
 <li>Abra o terminal e digite CMD</li>
 <li>Digite cd "caminho que você copiou"</li>
 <li>Digite pip install -r requirements.txt</li>
-<li>Talvez seja necessário substituir o botão de "fight.png" na pasta alvos para um print tirado da sua propria máquina</li>
+<li>Altere as configurações de cor do navegador para sRGB digitando: <b>chrome://flags/#force-color-profile</b></li>
+<li>Talvez seja necessário substituir o botão de "fight.png", "full.png" e "noships.png" na pasta alvos para um print tirado da sua propria máquina</li>
 
 <br>
 <h1 align="center">Modo de usar</h1>
 <li>Digite no terminal python main.py</li>
-<li>Altere as configurações de cor do navegador para sRGB:
-*chrome://flags/#force-color-profile*</li>
-<li>Abra a tela do jogo e deixe aberto sem nada na frente da janela</li>
+<li>Abra a tela do jogo no monitor principal e deixe aberto sem nada na frente da janela</li>
 <li>Leia o arquivo config.yaml e ajuste os valores caso necessário</li>
 <li>Deixa o filtro de escolha das naves selecionado como "Max ammo"</li>
 
