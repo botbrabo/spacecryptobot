@@ -27,7 +27,7 @@
 *chrome://flags/#force-color-profile*</li>
 <li>Abra a tela do jogo e deixe aberto sem nada na frente da janela</li>
 <li>Leia o arquivo config.yaml e ajuste os valores caso necessário</li>
-
+<li>Deixa o filtro de escolha das naves selecionado como "Max ammo"</li>
 
 <br>
 <h1 align="center">O que o bot faz?</h1>
@@ -35,3 +35,14 @@
 <li>Seleciona todas as naves disponiveis (talvez tenha que ajustar o numero de scrolls no config.yaml de acordo com a quantidade de naves que vc possui)</li>
 <li>Assim que selecionar os 15 ou terminar de dar scroll, ele clica pra lutar contra o Boss</li>
 <li>Assim que passar da fase 10, ele seleciona para dar surrender e começa denovo</li>
+  
+<br>
+<h1 align="center">Configs alternativas do config.yaml se não funcionar:</h1>
+<pre>
+confianca_botao_fight: 0.92
+confianca_naves_selecionadas: 0.96
+confianca_naves_quebradas: 0.89
+confianca_boss11: 0.95
+</pre>
+
+Talvez seja necessário substituir o print das imagens "full.png" e "noships.png" 
