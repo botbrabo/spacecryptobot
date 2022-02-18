@@ -1,6 +1,6 @@
 #tempo de espera para começar o programa após inicio
 tempo_comecar_programa: 5
-#quantidade de scrolls a se fazer
+#quantidade de scrolls a se fazer (aumente ou diminua de acordo com a quantidade de naves que possui - 10 scrolls servem pra 40 naves)
 qtd_scrolls: 10
 #tempo de espera a cada clique
 tempo_clique: 1
@@ -14,5 +14,7 @@ confianca_botao_fight: 0.95
 confianca_naves_selecionadas: 0.95
 #grau de confianca para detecção de quando as naves já quebraram (mude isso para menor caso não esteja saindo da tela de batalha)
 confianca_naves_quebradas: 0.95
-#grau de confianca boss 11 (mude isso caso não esteja dando surrender ao chegar no boss 11)
-confianca_boss11: 0.95
+#grau de confianca no boss que for dar surrender (mude isso caso não esteja dando surrender ao chegar no boss selecionado abaixo)
+confianca_boss_label: 0.95
+#define em qual boss dar surrender (maximo 11, qualquer numero maior que isso vai dar erro)
+parar_no_boss: 11
